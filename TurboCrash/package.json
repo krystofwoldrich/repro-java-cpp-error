@@ -1,0 +1,25 @@
+{
+  "name": "turbo-crash",
+  "version": "0.0.1",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "license": "MIT",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "NativeTurboCrashSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.turbocrash"
+    }
+  }
+}
